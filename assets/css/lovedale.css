@@ -1349,12 +1349,15 @@ h2 {
     padding-bottom: 42px;
   }
 
-  .hero h1 {
-    font-size: clamp(2.05rem, 10vw, 2.8rem);
+  .hero .motto {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    letter-spacing: -0.03em;
   }
 
-  .hero .motto {
-    gap: 0.08em 0;
+  .hero .motto-word + .motto-word::before {
+    display: none;
   }
 
   .hero p {

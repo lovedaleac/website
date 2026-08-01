@@ -202,18 +202,8 @@ button:focus-visible {
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: 0.04em;
-  line-height: 1.1;
+  line-height: 1;
   text-transform: uppercase;
-}
-
-.brand-motto {
-  color: var(--gold);
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 0.62rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin-top: 3px;
 }
 
 .menu {
@@ -1322,11 +1312,6 @@ h2 {
 
   .brand-title {
     font-size: 1.02rem;
-  }
-
-  .brand-motto {
-    font-size: 0.54rem;
-    letter-spacing: 0.06em;
   }
 
   .nav-toggle {

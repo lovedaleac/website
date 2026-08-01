@@ -178,14 +178,14 @@ button:focus-visible {
 .brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   text-decoration: none;
   flex: 0 0 auto;
 }
 
 .brand-mark {
-  width: 52px;
-  height: 52px;
+  width: 62px;
+  height: 62px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -199,9 +199,9 @@ button:focus-visible {
 .brand-title {
   color: var(--ink-strong);
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.035em;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -1301,17 +1301,17 @@ h2 {
   .brand {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     width: auto;
   }
 
   .brand-mark {
-    width: 42px;
-    height: 42px;
+    width: 48px;
+    height: 48px;
   }
 
   .brand-title {
-    font-size: 1.02rem;
+    font-size: 1.15rem;
   }
 
   .nav-toggle {

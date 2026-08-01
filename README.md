@@ -15,3 +15,7 @@ This is a static GitHub Pages version of the Lovedale Academy website.
 
 - Site images are stored locally in `assets/images/site/media/`.
 - Contact and admission forms are static-friendly calls to email the school. A Google Form or form service can be connected later if required.
+
+## Deployment
+
+Pushes to `main` are deployed automatically to [GitHub Pages](https://lovedaleac.github.io/website/) by `.github/workflows/pages.yml`. The repository's Pages source must be set to **GitHub Actions**.

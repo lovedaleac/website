@@ -323,8 +323,8 @@ h2 {
 .hero .section {
   position: relative;
   z-index: 2;
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding-top: 72px;
+  padding-bottom: 46px;
 }
 
 .hero .hero-copy {
@@ -615,13 +615,13 @@ h2 {
 /* ─── SECTIONS ─── */
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 62px;
+  padding-bottom: 62px;
 }
 
 .section.tight {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .section.soft {
@@ -638,7 +638,7 @@ h2 {
 
 .section-head {
   max-width: 780px;
-  margin-bottom: 38px;
+  margin-bottom: 26px;
 }
 
 .section-head.center {
@@ -657,9 +657,9 @@ h2 {
 .divider::after {
   content: "";
   display: block;
-  width: 48px;
+  width: 40px;
   height: 3px;
-  margin-top: 22px;
+  margin-top: 16px;
   background: linear-gradient(90deg, var(--gold), var(--gold-light));
   border-radius: 2px;
 }
@@ -679,7 +679,7 @@ h2 {
 
 .grid {
   display: grid;
-  gap: 24px;
+  gap: 18px;
 }
 
 .grid.two {
@@ -712,7 +712,7 @@ h2 {
 
 .card.pad {
   min-height: 100%;
-  padding: 28px;
+  padding: 22px;
 }
 
 .card img {
@@ -739,7 +739,7 @@ h2 {
 }
 
 .card .body {
-  padding: 18px 18px 22px;
+  padding: 14px 16px 18px;
   border-top: 3px solid var(--gold);
 }
 
@@ -778,7 +778,7 @@ h2 {
 
 .school-intro {
   max-width: 840px;
-  margin: 0 auto 48px;
+  margin: 0 auto 32px;
   text-align: center;
 }
 
@@ -836,12 +836,12 @@ h2 {
 }
 
 .program {
-  min-height: 200px;
+  min-height: 160px;
   display: grid;
   grid-template-columns: auto 1fr;
   align-content: start;
-  gap: 16px;
-  padding: 28px;
+  gap: 14px;
+  padding: 20px;
   background: var(--white);
   transition: background 220ms ease;
 }
@@ -880,8 +880,8 @@ h2 {
 .stats {
   width: 100%;
   max-width: none;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 44px;
+  padding-bottom: 44px;
   background: linear-gradient(135deg, #0a2035 0%, #102b46 50%, #133352 100%);
   color: var(--white);
   position: relative;
@@ -1093,7 +1093,7 @@ h2 {
 
 .footer .grid {
   align-items: start;
-  padding: 60px 0 46px;
+  padding: 46px 0 36px;
 }
 
 .footer .grid > div + div {
@@ -1392,8 +1392,8 @@ h2 {
   }
 
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
 
   .section.soft > .inner,
@@ -1402,7 +1402,7 @@ h2 {
   }
 
   .section-head {
-    margin-bottom: 28px;
+    margin-bottom: 20px;
   }
 
   .section-head h1,
